@@ -1,0 +1,20 @@
+//========================================
+//      接口及其子接口
+//========================================
+
+BeanPostProcessor
+>>> DestructionAwareBeanPostProcessor
+>>> MergedBeanDefinitionPostProcessor
+>>> InstantiationAwareBeanPostProcessor
+    >>> SmartInstantiationAwareBeanPostProcessor
+
+//========================================
+//      常用Bean后置处理器
+//========================================
+
+// @Autowired
+AutowiredAnnotationBeanPostProcessor（Internal）
+
+// @Resource、@PostConstruct、@PreDestroy
+CommonAnnotationBeanPostProcessor（Internal）
+<<< InitDestroyAnnotationBeanPostProcessor

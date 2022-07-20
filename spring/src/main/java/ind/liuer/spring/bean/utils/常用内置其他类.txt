@@ -1,0 +1,10 @@
+//========================================
+//      常用内置其他类
+//========================================
+
+// @Value
+AutowireCandidateResolver
+>>> SimpleAutowireCandidateResolver
+    >>> GenericTypeAwareAutowireCandidateResolver
+        >>> QualifierAnnotationAutowireCandidateResolver
+            >>> ContextAnnotationAutowireCandidateResolver
