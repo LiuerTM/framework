@@ -2,8 +2,8 @@
 //      接口及其子接口
 //========================================
 
-BeanFactoryPostProcessor
->>> BeanDefinitionRegistryPostProcessor
+BeanFactoryPostProcessor#postProcessBeanFactory(ConfigurableListableBeanFactory beanFactory)
+>>> BeanDefinitionRegistryPostProcessor#postProcessBeanDefinitionRegistry(BeanDefinitionRegistry registry)
 
 //========================================
 //      常用BeanFactory后置处理器
